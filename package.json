@@ -1,0 +1,29 @@
+{
+  "name": "you-style-it",
+  "version": "1.0.0",
+  "description": "basic framework which allow you to write code in your styles",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hieunguyenebox/you-style-it.git"
+  },
+  "keywords": [
+    "framework",
+    "style",
+    "it",
+    "you",
+    "style",
+    "it",
+    "bootstrap",
+    "style"
+  ],
+  "author": "hieunguyenebox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hieunguyenebox/you-style-it/issues"
+  },
+  "homepage": "https://github.com/hieunguyenebox/you-style-it#readme"
+}

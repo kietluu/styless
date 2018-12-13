@@ -45,6 +45,11 @@ class GulpMain {
 		return path.resolve(__dirname, './')
 	}
 
+	root () {
+
+		return path.resolve(__dirname, '.')
+	}
+
 	checkWatch () {
 
 		if (this.isLocal())
@@ -84,7 +89,7 @@ class GulpMain {
 
 			nodemon({
 				watch: ['./dist', './config'],
-				script: './dist/lib/core/index.js',
+				script: './dist/lib/core',
 				env: { 'NODE_ENV': process.env.NODE_ENV }
 		  	})
 		}

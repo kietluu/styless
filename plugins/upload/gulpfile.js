@@ -9,7 +9,7 @@ class Gulp extends MainGulp {
 
 		super()
 
-		this.distName = 'lib'
+		this.distName = 'upload'
 	}
 
 	dir () {

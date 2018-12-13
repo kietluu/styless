@@ -5,7 +5,9 @@ var gulp = require('gulp'),
 	del = require('del');
 
 const plugins = [
-	'lib'
+	'lib',
+	'upload',
+	'react'
 ]
 
 gulp.task('build', (done) => {
